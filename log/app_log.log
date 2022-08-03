@@ -1,0 +1,27 @@
+2022-08-03 17:19:19 - com.company.avtokg.AvtokgApplication - INFO  - Starting AvtokgApplication using Java 18.0.1 on DESKTOP-H2891ME with PID 13932 (C:\Users\User\IdeaProjects\Spring\avtokg\avtokg\target\classes started by User in C:\Users\User\IdeaProjects\Spring\avtokg\avtokg)
+2022-08-03 17:19:19 - com.company.avtokg.AvtokgApplication - DEBUG - Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-08-03 17:19:19 - com.company.avtokg.AvtokgApplication - INFO  - The following 1 profile is active: "dev"
+2022-08-03 17:19:20 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-03 17:19:21 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO  - Finished Spring Data repository scanning in 120 ms. Found 7 JPA repository interfaces.
+2022-08-03 17:19:21 - o.s.b.w.e.tomcat.TomcatWebServer - INFO  - Tomcat initialized with port(s): 8080 (http)
+2022-08-03 17:19:21 - o.a.catalina.core.StandardService - INFO  - Starting service [Tomcat]
+2022-08-03 17:19:21 - o.a.catalina.core.StandardEngine - INFO  - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-08-03 17:19:22 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO  - Initializing Spring embedded WebApplicationContext
+2022-08-03 17:19:22 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO  - Root WebApplicationContext: initialization completed in 2697 ms
+2022-08-03 17:19:22 - o.h.jpa.internal.util.LogHelper - INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-03 17:19:22 - org.hibernate.Version - INFO  - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-08-03 17:19:22 - o.h.annotations.common.Version - INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-03 17:19:22 - com.zaxxer.hikari.HikariDataSource - INFO  - HikariPool-1 - Starting...
+2022-08-03 17:19:22 - com.zaxxer.hikari.HikariDataSource - INFO  - HikariPool-1 - Start completed.
+2022-08-03 17:19:22 - org.hibernate.dialect.Dialect - INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-08-03 17:19:23 - org.hibernate.id.UUIDHexGenerator - WARN  - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-08-03 17:19:24 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-03 17:19:24 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 17:19:24 - com.company.avtokg.config.JwtFilter - DEBUG - Filter 'jwtFilter' configured for use
+2022-08-03 17:19:24 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-03 17:19:26 - o.s.s.web.DefaultSecurityFilterChain - INFO  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@431f8830, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75bbe39d, org.springframework.security.web.context.SecurityContextPersistenceFilter@28da5c4d, org.springframework.security.web.header.HeaderWriterFilter@62f3ad90, org.springframework.web.filter.CorsFilter@6805415d, org.springframework.security.web.authentication.logout.LogoutFilter@6662974a, com.company.avtokg.config.JwtFilter@1ddc889b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bcca516, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bb644dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@870413c, org.springframework.security.web.session.SessionManagementFilter@306c8e09, org.springframework.security.web.access.ExceptionTranslationFilter@2f2a5064, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a778943]
+2022-08-03 17:19:26 - o.s.b.w.e.tomcat.TomcatWebServer - INFO  - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-03 17:19:27 - com.company.avtokg.AvtokgApplication - INFO  - Started AvtokgApplication in 8.556 seconds (JVM running for 9.649)
+2022-08-03 17:19:35 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-03 17:19:35 - com.zaxxer.hikari.HikariDataSource - INFO  - HikariPool-1 - Shutdown initiated...
+2022-08-03 17:19:35 - com.zaxxer.hikari.HikariDataSource - INFO  - HikariPool-1 - Shutdown completed.

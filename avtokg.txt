@@ -1,0 +1,46 @@
+************* avtokg *************
+1. Profile
+    id,name,surname,phone,email,photo,role,status,favorite_auto
+2. Attach
+    id(uuid),origin_name,size,path
+3. Category
+    id,name,created_date
+4. Comment
+    id, profile_id, created_date
+5. Report
+    id,profile_id,content, created_date
+6. Car
+    id, profile_id, attach_id, weight, engine(двигатель),
+    yearOfIssue(год Выпуска)
+
+*** Task List ***
+
+1. Profile (USER role)
+        -- Auth
+	1. Registration (with email verification)
+	2. Authorization
+	     id,name,surname,email,main_photo (url)
+	    -- Profile
+	3. Change password
+	4. Update Email (with email verification)
+	5. Update Profile Detail(name,surname)
+	6. Update Profile Attach (main_photo) (delete old attach)
+	7. Get Profile Detail (id,name,surname,email,main_photo((url)))
+
+
+2. Attach
+    1. Create Attach (upload)
+    2. Get Attach By Id (Open)
+    3. Download Attach (Download)
+    4. Attach pagination (ADMIN)
+        id,origen_name,size,url
+    5. Delete Attach (delete from db and system) (ADMIN)
+
+3. Category
+    1. Create Category (ADMIN)
+    2. Update Category (ADMIN)
+    3. Delete Category (ADMIN)
+    5. Category List
+
+
+

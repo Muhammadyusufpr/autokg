@@ -1,0 +1,20 @@
+###
+POST http://localhost:8080/api/v1/auth/registration
+Content-Type: application/json
+
+{
+  "name": "alish",
+  "surname": "Aliyev",
+  "email": "Alish@gmail.com",
+  "password": "12345678",
+  "phone": "+998930047135"
+}
+
+###
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "Alish@gmail.com",
+  "password": "12345678"
+}

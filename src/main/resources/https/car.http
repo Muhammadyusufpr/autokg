@@ -1,0 +1,21 @@
+###
+POST http://localhost:8080/v1/car/b83ec484-f5ec-4050-87f9-5f251c3b3d36
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4YThhODNkNjgxODE0YzNmMDE4MTgxNTA5NGRiMDAwMCIsImlhdCI6MTY1NTg5ODAyMCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiJ9.RySrdANFbuZAFuNlIuSCaB9SP4h8LylmaQyCAfNVGds
+Content-Type: application/json
+
+{
+  "weight": "1782kg",
+  "profileId": "8a8a83d681814c3f0181815094db0000",
+  "engine": "3.0l",
+  "yearOfIssue": " 2007-12-03",
+  "model": "m5 e60",
+  "brand": "BMW",
+  "DriveUnitType": "REAR_DRIVE",
+  "CarBodyType": "SEDAN",
+  "StateType": "PERFECT",
+  "FuelType": "FUEL",
+  "SteeringWheelType": "LEFT",
+  "priceSOM": "3524856",
+  "priceUSD": "8400",
+
+}

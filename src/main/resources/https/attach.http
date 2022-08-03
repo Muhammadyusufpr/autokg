@@ -1,0 +1,9 @@
+###
+POST http://localhost:8080/attach/upload
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4YThhODNkNjgxODE0YzNmMDE4MTgxNTA5NGRiMDAwMCIsImlhdCI6MTY1NTczNTE2MiwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiJ9.4P6KBNR87CeV8pYG-_yxGZMnzt0shNiFlIT9yvl9M4w
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="7 Windows.jpg"
+
+< F:\7 Windows.jpg

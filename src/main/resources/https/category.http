@@ -1,0 +1,8 @@
+###
+POST http://localhost:8080/category/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4YThhODNkNjgxODE0YzNmMDE4MTgxNTA5NGRiMDAwMCIsImlhdCI6MTY1NTczNTE2MiwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiJ9.4P6KBNR87CeV8pYG-_yxGZMnzt0shNiFlIT9yvl9M4w
+
+{
+  "name": "crossover"
+}
